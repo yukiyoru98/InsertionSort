@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBEDF08C2438471A0092AA09 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF08B2438471A0092AA09 /* main.cpp */; };
+		CBEDF09B2438D29D0092AA09 /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF09A2438D29D0092AA09 /* InsertionSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		CBEDF0882438471A0092AA09 /* InsertionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InsertionSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBEDF08B2438471A0092AA09 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CBEDF09524384D250092AA09 /* 10000input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 10000input.txt; sourceTree = SOURCE_ROOT; };
+		CBEDF0982438CA5C0092AA09 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		CBEDF0992438CA5C0092AA09 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+		CBEDF09A2438D29D0092AA09 /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InsertionSort.cpp; path = InsertionSort/InsertionSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,10 @@
 		CBEDF07F2438471A0092AA09 = {
 			isa = PBXGroup;
 			children = (
-				CBEDF08A2438471A0092AA09 /* InsertionSort */,
+				CBEDF0982438CA5C0092AA09 /* input.txt */,
+				CBEDF0B32438DC9A0092AA09 /* InsertionSort */,
+				CBEDF0992438CA5C0092AA09 /* output.txt */,
+				CBEDF09524384D250092AA09 /* 10000input.txt */,
 				CBEDF0892438471A0092AA09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +60,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBEDF08A2438471A0092AA09 /* InsertionSort */ = {
+		CBEDF0B32438DC9A0092AA09 /* InsertionSort */ = {
 			isa = PBXGroup;
 			children = (
-				CBEDF08B2438471A0092AA09 /* main.cpp */,
+				CBEDF09A2438D29D0092AA09 /* InsertionSort.cpp */,
 			);
-			path = InsertionSort;
+			name = InsertionSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEDF08C2438471A0092AA09 /* main.cpp in Sources */,
+				CBEDF09B2438D29D0092AA09 /* InsertionSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
