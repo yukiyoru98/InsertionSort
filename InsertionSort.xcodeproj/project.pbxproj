@@ -45,9 +45,9 @@
 			isa = PBXGroup;
 			children = (
 				CBEDF0982438CA5C0092AA09 /* input.txt */,
-				CBEDF0B32438DC9A0092AA09 /* InsertionSort */,
-				CBEDF0992438CA5C0092AA09 /* output.txt */,
 				CBEDF09524384D250092AA09 /* 10000input.txt */,
+				CBEDF0992438CA5C0092AA09 /* output.txt */,
+				CBEDF0B32438DC9A0092AA09 /* InsertionSort */,
 				CBEDF0892438471A0092AA09 /* Products */,
 			);
 			sourceTree = "<group>";

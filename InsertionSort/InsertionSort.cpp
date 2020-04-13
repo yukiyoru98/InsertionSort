@@ -23,6 +23,7 @@ void InsertionSort(vector<int> &vec){
 }
 
 int main(){
+    
     vector<int> vec;
     const string inputFile = "input.txt";
     const string outputFile = "output.txt";
@@ -42,9 +43,10 @@ int main(){
         ReadFile >> x;
         vec.push_back(x);
     }
-    
-    //=====Do Insertion Sort=====
+        
+    //=====Do Quick Sort=====
     InsertionSort(vec);
+    //=======================
     
     //=====Output Sorted Sequence=====
     ofstream WriteFile(outputFile, ios::out | ios::trunc);//declare output file
@@ -53,7 +55,8 @@ int main(){
         cerr << "Output File not found.";
         exit(1);
     }
-    
+
+    WriteFile << n << '\n'; //write first line(total numbers)
     for(int i=0; i<n; i++){ //read the sorted numbers in vector and write into file
         WriteFile << vec[i] << '\n';
     }
